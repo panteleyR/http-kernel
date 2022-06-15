@@ -14,15 +14,45 @@
         "php": ">=8.0",
         "lilith/http-request": "dev-master",
         "lilith/http-foundation": "dev-master",
-        "lilith/router": "dev-master",
         "lilith/event-dispatcher": "dev-master",
-        "lilith/env": "dev-master",
         "lilith/dependency-injection": "dev-master",
+        "lilith/router": "dev-master",
+        "lilith/env": "dev-master",
         "lilith/common": "dev-master"
     },
     "autoload": {
         "psr-4": {
             "Lilith\\HttpKernel\\": "src/"
         }
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:panteleyR/http-request.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:panteleyR/http-foundation.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:panteleyR/event-dispatcher.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:panteleyR/dependency-injection.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:panteleyR/router.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:panteleyR/env.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:panteleyR/common.git"
+        }
+    ]
 }
