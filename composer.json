@@ -1,0 +1,28 @@
+{
+    "name": "lilith/http-kernel",
+    "description": "Common interface for HTTP messages",
+    "keywords": [],
+    "homepage": "https://github.com/panteleyR/common",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rost",
+            "homepage": "https://google.com/"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "lilith/http-request": "dev-master",
+        "lilith/http-foundation": "dev-master",
+        "lilith/router": "dev-master",
+        "lilith/event-dispatcher": "dev-master",
+        "lilith/env": "dev-master",
+        "lilith/dependency-injection": "dev-master",
+        "lilith/common": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lilith\\HttpKernel\\": "src/"
+        }
+    }
+}
