@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace Lilith\HttpKernel\Events;
 
 use Lilith\Http\Message\RequestInterface;
-use Lilith\Http\PSR7\Interfaces\ResponseInterface;
+use Lilith\Http\Message\ResponseInterface;
 
 class ResponseEvent
 {

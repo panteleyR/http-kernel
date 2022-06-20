@@ -18,7 +18,7 @@
         "lilith/dependency-injection": "dev-master",
         "lilith/router": "dev-master",
         "lilith/env": "dev-master",
-        "lilith/common": "dev-master"
+        "lilith/console": "dev-master"
     },
     "autoload": {
         "psr-4": {
